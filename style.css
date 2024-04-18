@@ -1,0 +1,61 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #f5f5f5;
+}
+
+.calculator-container {
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	text-align: center;
+}
+
+.input-container {
+	margin-bottom: 15px;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+input {
+	width: 100%;
+	padding: 8px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+button {
+	background-color: #4caf50;
+	color: #fff;
+	padding: 10px 15px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+	button:hover {
+		background-color: #45a049;
+	}
+
+#resultado-container {
+	margin-top: 20px;
+	padding: 10px;
+	border-radius: 4px;
+}
+
+#resultado-imc {
+	font-size: 18px;
+}
+
+#resultado-classificacao {
+	font-size: 16px;
+}

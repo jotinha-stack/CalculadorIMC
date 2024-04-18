@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora IMC</title>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PLGNRQK5');</script>
+</head>
+<body>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PLGNRQK5"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <div class="calculator-container">
+        <h1>Calculadora IMC</h1>
+        <div class="input-container">
+            <label for="peso">Peso (kg):</label>
+            <input type="number" id="peso" placeholder="Informe o peso">
+        </div>
+        <div class="input-container">
+            <label for="altura">Altura (m):</label>
+            <input type="number" id="altura" placeholder="Informe a altura">
+        </div>
+        <button onclick="calcularIMC()">Calcular</button>
+        <div id="resultado-container">
+            <p id="resultado-imc"></p>
+            <p id="resultado-classificacao"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
